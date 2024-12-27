@@ -49,7 +49,7 @@ const generatePixQRCode = async (amount, userId, email) => {
         amount: amount,
         payerQuestion: "Depósito via PIX",
         external_id: externalId,
-        postbackUrl: "https://6rc6t6tt-8090.brs.devtunnels.ms/api/payment/callback",
+        postbackUrl: "https://cointerc.evolucaohot.online/api/payment/callback",
         payer: {
           name: `User ${userId}`,
           document: '12345678900',
